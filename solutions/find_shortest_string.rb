@@ -16,23 +16,23 @@ def find_shortest_string(arr)
 end
 
 if __FILE__ == $PROGRAM_NAME
-  puts "Expecting: 'a'"
-  puts find_shortest_string(['aaa', 'a', 'bb', 'ccc'])
+  # puts "Expecting: 'a'"
+  # puts find_shortest_string(['aaa', 'a', 'bb', 'ccc'])
 
-  puts
+  # puts
 
-  puts "Expecting: 'hi'"
-  puts find_shortest_string(['cat', 'hi', 'dog', 'an'])
+  # puts "Expecting: 'hi'"
+  # puts find_shortest_string(['cat', 'hi', 'dog', 'an'])
 
-  puts
+  # puts
 
-  puts "Expecting: 'lily'"
-  puts find_shortest_string(['flower', 'juniper', 'lily', 'dadelion'])
+  # puts "Expecting: 'lily'"
+  # puts find_shortest_string(['flower', 'juniper', 'lily', 'dadelion'])
 
-  puts
+  # puts
 
-  puts "Expecting: 'cat'"
-  puts find_shortest_string(['cat'])
+  # puts "Expecting: 'cat'"
+  # puts find_shortest_string(['cat'])
 
   # Don't forget to add your own!
 
@@ -43,7 +43,7 @@ if __FILE__ == $PROGRAM_NAME
     find_shortest_string(['flower', 'juniper', 'lily', 'dadelion'])
   end
 
-  avg_time = (Time.now - start_time) / 1000.0
+  avg_time = (Time.now - start_time)*1000 / 1000.0
   puts avg_time
 end
 
